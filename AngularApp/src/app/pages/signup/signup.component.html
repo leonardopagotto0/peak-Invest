@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="content">
+        <header>
+            <a href="/" class="go_back">&larr;</a>
+            <span class="title">Cadastro de Parcelas</span>
+        </header>
+        <span>Parcelas</span>
+        <input type="text" placeholder="" class="input" id="plots" [(ngModel)]="plots">
+        <span>Valor</span>
+        <input type="text" placeholder="" class="input" id="values" [(ngModel)]="value">
+        <span>resultado: <span style="color: green;">{{result}}</span></span>
+        <input type="submit" value="Calcular" (click)="executeCalculation()">
+    </div>
+</div>

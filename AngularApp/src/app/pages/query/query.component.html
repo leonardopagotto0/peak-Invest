@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="content">
+        <header>
+            <a href="/" class="go_back">&larr;</a>
+            <span class="title">Consultar usuarios</span>
+        </header>
+        <div class="user">
+            <img [src]="user?.photo || 'assets/icons/user.svg'" alt="">
+            <span>{{user?.name || "???"}}</span>
+        </div>
+        
+        <input type="text" placeholder="pesquisar por id..." [(ngModel)]="userId">
+        <input type="submit" value="Pesquisar" (click)="searchUser()">
+    </div>
+</div>
