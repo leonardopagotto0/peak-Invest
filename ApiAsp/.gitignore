@@ -1,0 +1,50 @@
+# Arquivos compilados
+*.dll
+*.exe
+*.pdb
+
+# Arquivos gerados pelo Visual Studio
+*.user
+*.vscode
+*.vs
+*.suo
+*.cache
+*.csproj.user
+*.sln.docstates
+
+# Pasta de pacotes NuGet
+packages/
+
+# Arquivos de log
+*.logs
+*.log
+
+# Arquivos temporários
+*~
+*.swp
+*.tmp
+
+# Arquivos gerados durante a construção
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# Diretório de publicação
+bin/
+obj/
