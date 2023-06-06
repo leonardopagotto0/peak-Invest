@@ -23,9 +23,7 @@ export class SignupComponent {
       value: this.value
     }).subscribe(
       response => {
-        this.result = response;
-        console.log(response);
-        
+        this.result = parseFloat(response.toFixed(2));
       },
       error => {
         alert('Erro ao calcular, verifique endereço da api');
